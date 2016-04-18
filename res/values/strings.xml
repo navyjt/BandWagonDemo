@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BandWagon Demo</string>
+    <string name="login_name">登录账号</string>
+    <string name="reg_name">注册新用户</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">登录姓名：</string>
+    <string name="password">登录密码：</string>
+    <string name="repeat_password">重复密码：</string>
+    <string name="email">电子邮箱：</string>
+    <string name="submit">立即登录</string>
+    <string name="register">点击注册</string>
+    <string name="start_register">注册账号</string>
+    <string name="lightpainting">光绘 LightPainting</string>
+    <string name="unknown">开发中．．．</string>
+    <string name="usersetting">个人设置</string>
+    <string name="mainfunction_name">选择功能</string>
+    <string name="description">Start LightPainting!</string>
+    <string name="start_button">开始</string>
+    <string name="color_button">选择颜色</string>
+    <string name="edittexthint">请输入需要显示的文字</string>
+    <string name="setfont">字体大小:　</string>
+    <string name="setcolor">文字颜色:　</string>
+    <string name="stoptime">启动延时:　</string>
+    <string name="speed">移动时间(秒):</string>
+    <string name="dialog_color_OK">确定</string>
+    <string name="dialog_color_Cancel">取消</string>
+    <string name="camera_setup">相机设置</string>
+    <string name="portrait">个人头像：</string>
+    <string name="btn_upload_user_portrait">上传头像：</string>
+
+</resources>

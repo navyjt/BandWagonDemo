@@ -1,0 +1,103 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" 
+    >
+ 
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal|center"
+	        android:minLines="5"
+	        android:gravity="center"
+	        android:text="@string/description" />
+
+	    <EditText
+	        android:id="@+id/edit_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/edittexthint" />
+
+        
+        
+    <TableRow>
+       	<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/setfont" />
+	    <SeekBar
+	        android:id="@+id/seekBarFont"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:max="300"
+	        android:progress="200"/>
+    </TableRow>
+    
+    <TableRow>
+       	<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/speed" />
+	    <SeekBar
+	        android:id="@+id/seekBarspeed"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:max="30"
+	        android:progress="15"/>
+    </TableRow>
+    <TableRow>
+       	<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/stoptime" />
+	    <SeekBar
+	        android:id="@+id/seekBarStop"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:max="15"
+	        android:progress="5"/>
+    </TableRow>
+    <TableRow>
+       	<TextView
+       	    android:id="@+id/selcolor"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/setcolor" />
+	   <Button
+	        android:id="@+id/selcolor_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/color_button" />
+    </TableRow>
+    
+
+
+		 <Button
+	        android:id="@+id/camera_setup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"  
+	        android:text="@string/camera_setup" />
+		 
+		 <TextView
+		     android:id="@+id/camera_setuptext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	         android:minLines="5"
+	        />
+		 
+		<Button
+	        android:id="@+id/start_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"  
+	        android:text="@string/start_button" />
+
+</TableLayout>
